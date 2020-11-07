@@ -279,6 +279,13 @@ main > section {
             background-color: #94A6A6;
         }
 
+        p.tekst-skills {
+            font-family: "Poppins", sans-serif;
+            margin: 4em;
+            text-align: center;
+            font-size: 1em;
+        }
+
         /* bron: https://www.w3schools.com/howto/howto_css_skill_bar.asp */
 
 
@@ -331,6 +338,7 @@ main > section {
             font-family: "Poppins", sans-serif;
             letter-spacing: 2px;
         }
+
         /* bron: https://www.youtube.com/watch?v=7uEqQx4S50E */
 
 
