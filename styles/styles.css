@@ -24,14 +24,6 @@ nav {
 
 }
 
-div h3 {
-    color: white;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 1.3em;
-}
-
 nav ul {
     display: flex;
     padding: 1em;
@@ -61,6 +53,15 @@ h1 {
     color: #fff;
     font-family: "Poppins", sans-serif;
     margin-right: auto;
+}
+
+h3 a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.3em;
 }
 
 .burger {
@@ -178,7 +179,7 @@ main > section {
 
         section > article {
             position: relative;
-            padding-bottom: 2em;
+            padding-bottom: 1em;
             place-self: center;
             background-color: transparent;
             border-radius: 1%;
@@ -230,6 +231,7 @@ main > section {
             position: absolute;
             top: 100%;
             left: 50%;
+            width: 100%;
             transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
             background-color: #595859;
@@ -352,7 +354,6 @@ main > section {
         }
 
         footer p {
-            text-align: center;
             font-family: "Poppins", sans-serif;
             color: white;
         }
