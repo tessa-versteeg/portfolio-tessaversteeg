@@ -171,13 +171,13 @@ main > section {
 
 
         /*Portfolio styling*/
-        section > article img {
+        section.grid-werk > article img {
             width: 25em;
             padding: 0;
             max-width: 100%;
         }
 
-        section > article {
+        section.grid-werk > article {
             position: relative;
             padding-bottom: 1em;
             place-self: center;
@@ -185,15 +185,15 @@ main > section {
             border-radius: 1%;
         }
 
-        main section > h2 {
+        main section.grid-werk > h2 {
             color: #0D0D0D;
         }
 
-        main section > .zwarte-tekst {
+        main section.grid-werk > .zwarte-tekst {
             color: black;
         }
 
-        section > article h3 {
+        section.grid-werk > article h3 {
             padding: 1em;
             font-family: "Poppins", sans-serif;
             color: white;
@@ -202,25 +202,25 @@ main > section {
             text-align: center;
         }
 
-        section:nth-of-type(2) {
+        section.grid-werk {
             background-color: #AABFBF;
             margin: 0;
             margin-bottom: 10em;
         }
 
         @media (min-width:40em) {
-            section:nth-of-type(2) {
+            section.grid-werk {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
             }
 
-            section:nth-of-type(2) h2 {
+            section.grid-werk h2 {
                 grid-column: 1 / -1;
             }
         }
 
         @media (min-width: 80em) {
-            section:nth-of-type(2) {
+            section.grid-werk {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 padding-bottom: 4em;
