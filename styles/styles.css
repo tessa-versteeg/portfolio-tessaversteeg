@@ -16,7 +16,6 @@ body {
 
 nav {
     display: flex;
-    margin-bottom: 1em;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
@@ -131,8 +130,9 @@ h3 a {
 
 /*Over mij styling*/
 h2 {
-    padding: 2em;
     text-align: center;
+    margin-bottom: 1em;
+    margin-top: 2em;
     font-family: "Poppins", sans-serif;
 }
 
@@ -150,21 +150,16 @@ img.circel {
     float: left;
 }
 
-main > section {
-    margin: 4em;
-    margin-bottom: 14em;
-}
-
 @media (min-width:20em) {
     main > section {
         margin: 1em;
-        margin-bottom: 14em;
+        margin-bottom: 8em;
     }
 
     @media (min-width:50em) {
         main > section {
-            margin: 4em;
-            margin-bottom: 12em;
+            margin: 3em 4em;
+            margin-bottom: 8em;
         }
 
 
@@ -175,6 +170,7 @@ main > section {
             width: 25em;
             padding: 0;
             max-width: 100%;
+            border: 1em solid #595859;
         }
 
         section.grid-werk > article {
@@ -182,19 +178,15 @@ main > section {
             padding-bottom: 1em;
             place-self: center;
             background-color: transparent;
-            border-radius: 1%;
         }
 
         main section.grid-werk > h2 {
             color: #0D0D0D;
         }
 
-        main section.grid-werk > .zwarte-tekst {
-            color: black;
-        }
-
         section.grid-werk > article h3 {
             padding: 1em;
+            margin-top: 1em;
             font-family: "Poppins", sans-serif;
             color: white;
             background-color: #595859;
@@ -205,13 +197,15 @@ main > section {
         section.grid-werk {
             background-color: #AABFBF;
             margin: 0;
-            margin-bottom: 10em;
+            margin-bottom: 5em;
+            margin-top: 5em;
         }
 
         @media (min-width:40em) {
             section.grid-werk {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                padding: 1em 1em 4em 1em;
             }
 
             section.grid-werk h2 {
@@ -236,7 +230,7 @@ main > section {
             -ms-transform: translate(-50%, -50%);
             background-color: #595859;
             color: white;
-            font-size: 16px;
+            font-size: 1em;
             padding: 0.8em 1.3em;
             border: none;
             cursor: pointer;
@@ -245,7 +239,7 @@ main > section {
         article .btn:hover {
             background-color: #0D0D0D;
         }
-
+        
 
 
         /*Skils styling*/
@@ -306,7 +300,8 @@ main > section {
         .card {
             background: #AABFBF;
             padding: 0 1em;
-            margin: 0 1em;
+            margin: 1em 1em;
+            margin-bottom: 8.2em;
             width: calc(33% - 1.3em);
             height: 17em;
             display: flex;
@@ -348,7 +343,6 @@ main > section {
         footer {
             display: flex;
             width: 100%;
-            margin-top: 7em;
             padding: 2em;
             background-color: #595859;
         }
@@ -356,4 +350,6 @@ main > section {
         footer p {
             font-family: "Poppins", sans-serif;
             color: white;
+            text-align: center;
+            width: 100%;
         }

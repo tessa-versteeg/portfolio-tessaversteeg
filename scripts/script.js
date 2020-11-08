@@ -9,3 +9,6 @@ function toggleMenu() {
 }
 
 hamburgerButton.addEventListener('click', toggleMenu);
+
+
+//Popup JS:
